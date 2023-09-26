@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arra Construcción</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <!-- Este fichero va siempre debajo de los CSS porque van a modificarlo -->
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.3.0.min.js" integrity="sha256-wZ3vNXakH9k4P00fNGAlbN0PkpKSyhRa76IFy4V1PYE=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html"><img src="/assets/imgs/arra-construccion-proyectos.png" id="logo"></a>
+        <div id="iconos-hamburguesa">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-x"></i>
+        </div>
+    </header>
+    <nav>
+        <ul class="navsumario">
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="/pages/biografia.html">BIOGRAFIA</a></li>
+            <li><a href="/pages/portfolio.html">PORTFOLIO</a></li>
+            <li><a href="/pages/contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <h1 id="title_contact">Formulario de contacto</h1>
+    <p id="p_contact">Haznos tu consulta y en breve nos pondremos en contacto contigo</p>
+    <form id="contact_clients">
+        <label for="nombre"></label>
+        <input type="text" id="nombre" name="nombre" autofocus autocomplete="off" placeholder="Nombre" required>
+        <label for="apellido"></label>
+        <input type="text" id="apellido" name="apellido" autofocus autocomplete="off" placeholder="Apellido" required>
+        <label for="email"></label>
+        <input type="email" id="email" name="email" placeholder="Email" autocomplete="off" required>
+        <label for="telefono"></label>
+        <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" autocomplete="off" required>
+        <textarea name="comments" id="comments" rows="15" cols="60" placeholder="Comentanos lo que quieras..."></textarea>
+        <input type="submit" value="Enviar" id="submit">
+    </form>
+    <footer>
+        <ul id="footer_ul">
+            <li class="footer_li">
+                <a href="https://maps.app.goo.gl/p7YN4WFr8ryXxYya7" target="_blank"><i class='bx bxs-location-plus footer_i'></i> C/ Rodriguez Arias nº 23,<br>
+                Planta 5, dpto. 4 - 48011 Bilbao</a>
+            </li>
+            <li class="footer_li"><a href="tel: 946407941"><i class='bx bxs-phone footer_i' ></i> 946 407 941</a></li>
+            <li class="footer_li"><a href="mailto:info@arraconstruccion.com"><i class='bx bxs-envelope footer_i'></i>info@arraconstruccion.com</a></li>
+        </ul>
+    </footer>
+    <span id="icon_chevron"><i class='bx bxs-chevron-up'></i></span>
+    <script src="../script.js"></script>
+</body>
+</html>
