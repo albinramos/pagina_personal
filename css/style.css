@@ -259,6 +259,13 @@ footer{
     font-size: 28px;
 }
 
+#video_loop{
+    padding: 30px;
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
 /* --------CONTACTO---------- */
 
 #p_contact{
